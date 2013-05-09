@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Twitter User Lookup</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="twitter.css" title="Twitter User Lookup Styles" />
+<script type="text/javascript" src="twitter.js"></script>
+</head>
+
+<body>
+
+<!--Divs added for styling purposes. Ids: top, wrapper, navbar, content, stats, page-->
+<div id="top">&nbsp;</div>
+<div id="wrapper">
+  <div id="navbar">
+    <div id="header">
+      <h3>Twitter User Lookup</h3>
+    </div>
+    <div id="formDiv">
+      <form action="http://info230.cs.cornell.edu/users/www/cjl2test/hw1/twitter.php" method="get" >
+        <fieldset>
+          <label>Twitter Username:</label>
+          <input type="text" name="username" id="username" />
+          <input type="button" value="Look up user" id="searchButton" name="search" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  <div id="content">
+  	<div id="transparent">
+    </div>
+    <div id="message"> <span id="messageText">&nbsp;</span> </div>
+    <div id="page">
+    <div id="profile">
+      <h2>Profile</h2>
+      <table>
+        <tr>
+          <td><img id="profileimg" src="" alt="" height="48" width="48" /></td>
+        </tr>
+        <tr>
+          <td>Profile:</td>
+          <td id="profilename">&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Location:</td>
+          <td id="profileloc">&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Description:</td>
+          <td id="profiledesc">&nbsp;</td>
+        </tr>
+      </table>
+    </div>
+    <div id="stats">
+     <table>
+        <tr>
+          <td>Tweets:</td>
+          <td id="profiletweet">&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Following:</td>
+          <td id="profileing">&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Followers:</td>
+          <td id="profileers">&nbsp;</td>
+        </tr>
+      </table>
+    </div>
+    </div>
+    <div id="tweets">
+      <h2>Tweets</h2>
+      <p id="tweetlist"></p>
+    </div>
+  </div>
+</div>
+<div id="footer">&nbsp;</div>
+</body>
+</html>

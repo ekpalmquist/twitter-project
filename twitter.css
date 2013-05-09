@@ -1,0 +1,183 @@
+body, html {
+	/*photo found on hongkiat.com*/
+	background-image:url('twitterfollow22.jpg');
+	background-repeat:repeat;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+	border-style:none;
+}
+
+a, a:link, a:visited, a:hover {
+}
+#top{
+	background-color:#333;
+	position: fixed;
+	top:0px;
+	left:0px;
+	padding: 15px;
+	width:100%;
+	-moz-box-shadow: 0 0 5px #999;
+-webkit-box-shadow: 0 0 5px#999;
+box-shadow: 0 0 5px #999;
+z-index:6;
+}
+#wrapper{
+	
+	
+	width: 875px;
+	margin: 0px auto 0 auto;
+	position: relative;
+	top:-10px;
+	
+	
+}
+#navbar{
+	
+	background-color:#333;
+	color:#b9b9b7;
+	font-size:14px;
+	font-style:normal;
+	height: 15px;
+	position:fixed;
+	padding: 10px;
+	z-index:8;
+	
+	
+}
+#header{
+	width:200px;
+	background-color:#333;
+	position: absolute;
+	left: 30px;
+	line-height: 18px;
+	height: 18px;
+	top: -10px;
+	float:left;
+	
+	
+}
+#formDiv{
+	width:400px;
+	background-color:#333;
+	color:#b9b9b7;
+	font-size:14px;
+	line-height: 18px;
+	position: absolute;
+	
+	top: 0px;
+	right:-885px;
+	height: 24px;
+	
+}
+	
+
+#content{
+	
+	position:relative;
+	top:0px;
+	width: 825px;
+	margin-top:10px;
+	padding: 10px 35px 0 35px;
+	z-index:1;
+	
+}
+#content #transparent{
+	opacity:0.4;  
+    filter:alpha(opacity=40);  
+    -moz-opacity:0.4;  
+    background-color:#fff;  
+	-moz-box-shadow: 0 0 5px #999;
+-webkit-box-shadow: 0 0 5px#999;
+box-shadow: 0 0 5px #999;
+    width:905px;  
+    height:1500px;
+    position:absolute;  
+    top:0px;  
+    left:-7px;  
+    z-index:-1;  
+}
+#message{
+	background-color:#EEE;
+	opacity:1;
+	border:thin #999;
+	padding: 10px;
+	position:absolute;
+	right:95px;
+	top:80px;
+	z-index:6;
+	
+}
+#messageText{}
+#page {
+	
+	float:left;
+	width: 200px;
+	
+}
+#profile{
+	background-color:#f1f2f1;
+	border:thin #999;
+	width:300px;
+	position:absolute;
+	left:20px;
+	top:70px;
+	margin:10px;
+	padding:10px;
+	z-index:4;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+	-moz-box-shadow: 0 0 1px #999;
+-webkit-box-shadow: 0 0 1px#999;
+box-shadow: 0 0 1px #999;
+	
+}
+#stats{
+	background-color:#f1f2f1;
+	border:thin #999;
+	width:300px;
+	position:absolute;
+	left:20px;
+	top:370px;
+	margin:10px;
+	padding:10px;
+	z-index:4;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+	-moz-box-shadow: 0 0 1px #999;
+-webkit-box-shadow: 0 0 1px#999;
+box-shadow: 0 0 1px #999;
+	
+}
+#tweets{
+	background-color:#EEE;
+	border:thin #999;
+	position:absolute;
+	left:350px;
+	top:70px;
+	width:485px;
+	margin:10px;
+	padding:10px;
+	z-index:5;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+	-moz-box-shadow: 0 0 1px #999;
+-webkit-box-shadow: 0 0 1px#999;
+box-shadow: 0 0 1px #999;
+	
+}
+#tweetlist{}
+#profileimg{
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+
